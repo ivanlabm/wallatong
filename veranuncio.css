@@ -1,0 +1,20 @@
+img{
+    width: 200px;
+    height: auto;
+}
+
+#cuerpo{
+  
+    text-align: center;
+}
+#img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#imgtitulo{
+    border: 2px solid black;
+}
+#otrasimg{
+    width: 100px;
+}

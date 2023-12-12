@@ -1,0 +1,172 @@
+*{
+    padding: auto;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+
+}
+
+header{
+    display: flex;
+   
+}
+.menu{
+    width: 100%;
+}
+#menu{
+    position: fixed;
+    display: flex;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    justify-content:center ;
+    align-items: center;
+    
+ 
+}
+#menu #buscador{
+    margin: 0%;
+}
+
+
+    
+
+
+
+header button{
+   border: 2px solid aquamarine;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    
+}
+header button:hover{
+    background-color: rgb(0, 197, 171);
+    color: white;
+    border-color: rgb(0, 172, 149);
+}
+
+
+.subir{
+    background-color: rgb(0, 197, 171);
+    color: white;
+    border-color: rgb(0, 172, 149);
+}
+.subir:hover{
+    background-color: rgb(0, 172, 149);
+    color: rgb(0, 197, 171);
+}
+.le{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.le img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  
+}
+.le #imgsubir{
+    width: 15px;
+    height: 15px;
+    padding: 0%;
+}
+.le .usu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.ri{
+    width: 85%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border:2px solid black;
+  
+
+}
+.ri img{
+    width: 50px;
+    margin-right:10px ;
+}
+.ri .titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border:2px solid black;
+}
+#precio{
+    font-weight:bold;
+    color: rgba(5, 5, 5, 0.747);
+    font-size: 20px;
+    text-align: left;
+}
+article p{
+    color: rgb(94, 94, 94);
+    text-align: left;
+}
+
+nav a{
+   
+   margin: 10px;
+   text-decoration: none;
+    color: black;
+}
+nav div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+
+#articulos{
+  
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content:space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 99%;
+
+    
+    
+}
+article{
+    margin: 0;
+    margin-top: 40px;
+    width: 15%;
+    padding: 20px;
+     border: 2px solid black;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+article img{
+
+    border-radius: 15%;
+    width: 120px;
+    height: 150px;
+    
+}
+article a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.subpor{
+    background-color: rgb(0, 197, 171);
+    color: white;
+    border-color: rgb(0, 172, 149);
+}
+body{
+    color: black;
+}
