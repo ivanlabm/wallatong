@@ -15,7 +15,7 @@ class Anuncio{
 public function getUsuario(){
 
     if(is_null($this->idUsuario)){
-        $connexionDB= new ConnexionDB('root','','localhost','wallatong');
+      $connexionDB=new ConnexionDB(MYSQL_USER,MYSQL_PASS,MYSQL_HOST,MYSQL_DB);
         $conn=$connexionDB->getConnexion();
         $DAO=new DAO($conn);
         $this->idUsuario=$DAO->getById($this->getIdUsuario());
