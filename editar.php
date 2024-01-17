@@ -11,7 +11,7 @@ $error ='';
 
 
 //Conectamos con la bD
-$connexionDB = new ConnexionDB('root','','localhost','wallatong');
+$connexionDB=new ConnexionDB(MYSQL_USER,MYSQL_PASS,MYSQL_HOST,MYSQL_DB);
 $conn = $connexionDB->getConnexion();
 
 //Obtengo el id del anuncio que viene por GET
