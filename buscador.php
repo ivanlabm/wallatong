@@ -11,7 +11,7 @@ require_once 'modelos/Foto.php';
 require_once 'modelos/FotosDAO.php';
 
 //Creamos la conexión utilizando la clase que hemos creado
-$connexionDB = new ConnexionDB('root','','localhost','wallatong');
+$connexionDB=new ConnexionDB(MYSQL_USER,MYSQL_PASS,MYSQL_HOST,MYSQL_DB);
 $conn = $connexionDB->getConnexion();
 
 $anuncioDAO = new AnunciosDAO($conn);
