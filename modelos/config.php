@@ -1,7 +1,7 @@
 <?php 
 
-define('MYSQL_USER', getenv('MYSQL_USER'));
-define('MYSQL_PASS', getenv('MYSQL_PASS'));
-define('MYSQL_DB', getenv('MYSQL_DB'));
-define('MYSQL_HOST', getenv('MYSQL_HOST'));
+$DB_USER= getenv('MYSQL_USER'));
+$DB_PASS= getenv('MYSQL_PASS'));
+$DB_DB= getenv('MYSQL_DB'));
+$DB_HOST getenv('MYSQL_HOST'));
 
