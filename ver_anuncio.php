@@ -7,7 +7,7 @@ require_once 'modelos/DAO.php';
 require_once 'modelos/Foto.php';
 require_once 'modelos/FotosDAO.php';
 
-$connexionDB = new ConnexionDB('root','','localhost','wallatong');
+$connexionDB=new ConnexionDB(MYSQL_USER,MYSQL_PASS,MYSQL_HOST,MYSQL_DB);
 $conn = $connexionDB->getConnexion();
 
 $anunciosDAO = new AnunciosDAO($conn);
