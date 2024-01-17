@@ -9,7 +9,7 @@ class foto{
     public function getAnuncio(){
 
         if(is_null($this->idAnuncio)){
-            $connexionDB= new ConnexionDB('root','','localhost','wallatong');
+           $connexionDB=new ConnexionDB(MYSQL_USER,MYSQL_PASS,MYSQL_HOST,MYSQL_DB);
             $conn=$connexionDB->getConnexion();
             $DAO=new DAO($conn);
             $this->idAnuncio=$DAO->getById($this->getAnuncio());
